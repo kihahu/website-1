@@ -95,6 +95,27 @@ If you are on Ubuntu or another Linux distribution that support [snap](https://s
     kubectl version
     ```
 
+### Install with Homebrew on Linux
+
+If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) package manager, you can install kubectl with Homebrew.
+
+1. Run the installation command:
+
+    ```
+    brew install kubectl 
+    ```
+    or 
+    
+    ```
+    brew install kubernetes-cli
+    ```
+
+2. Test to ensure the version you installed is up-to-date:
+
+    ```
+    kubectl version
+    ```
+
 ## Install kubectl on macOS
 
 ### Install kubectl binary with curl on macOS
